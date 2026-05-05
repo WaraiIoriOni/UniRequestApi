@@ -1,0 +1,322 @@
+[
+  {
+    "ContainingType": "UniRequestAPI.Controllers.AdminController",
+    "Method": "GetAllPeople",
+    "RelativePath": "api/Admin/people/read",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniRequestAPI.Controllers.AdminController",
+    "Method": "AddPerson",
+    "RelativePath": "api/Admin/person/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "personDto",
+        "Type": "UniRequestAPI.Models.DTO.PersonDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniRequestAPI.Controllers.AdminController",
+    "Method": "DeletePerson",
+    "RelativePath": "api/Admin/person/delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniRequestAPI.Controllers.AdminController",
+    "Method": "UpdatePerson",
+    "RelativePath": "api/Admin/person/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updatePersonDto",
+        "Type": "UniRequestAPI.Models.DTO.UpdatePersonDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniRequestAPI.Controllers.AdminController",
+    "Method": "ApproveRegistration",
+    "RelativePath": "api/Admin/registration/approve",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "approveDto",
+        "Type": "UniRequestAPI.Models.DTO.ApproveRegistrationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniRequestAPI.Controllers.AdminController",
+    "Method": "GetRegistrationRequests",
+    "RelativePath": "api/Admin/registration/requests",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniRequestAPI.Controllers.DispatchController",
+    "Method": "DownloadFile",
+    "RelativePath": "api/Dispatch/file/download",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "type",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniRequestAPI.Controllers.DispatchController",
+    "Method": "UpdateMessageStatus",
+    "RelativePath": "api/Dispatch/message/status/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateStatusDto",
+        "Type": "UniRequestAPI.Models.DTO.UpdateStatusDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniRequestAPI.Controllers.DispatchController",
+    "Method": "ProcessTempMessage",
+    "RelativePath": "api/Dispatch/message/temp/process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "processDto",
+        "Type": "UniRequestAPI.Models.DTO.ProcessRequestMessageDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniRequestAPI.Controllers.DispatchController",
+    "Method": "GetAllMessages",
+    "RelativePath": "api/Dispatch/messages/const/get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniRequestAPI.Controllers.DispatchController",
+    "Method": "GetTempMessages",
+    "RelativePath": "api/Dispatch/messages/temp/get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniRequestAPI.Controllers.DispatchController",
+    "Method": "GetUserMessages",
+    "RelativePath": "api/Dispatch/messages/user/const/get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "personId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniRequestAPI.Controllers.ReportsController",
+    "Method": "ExportToDocx",
+    "RelativePath": "api/Reports/export",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniRequestAPI.Controllers.ReportsController",
+    "Method": "DeleteMessage",
+    "RelativePath": "api/Reports/message/delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deleteRequestDto",
+        "Type": "UniRequestAPI.Models.DTO.DeleteRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniRequestAPI.Controllers.ReportsController",
+    "Method": "GetAllMessages",
+    "RelativePath": "api/Reports/message/get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniRequestAPI.Controllers.UserRequestController",
+    "Method": "UploadFile",
+    "RelativePath": "api/UserRequest/file/upload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "uploadFileDto",
+        "Type": "UniRequestAPI.Models.DTO.UploadFileDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniRequestAPI.Controllers.UserRequestController",
+    "Method": "CreateMessage",
+    "RelativePath": "api/UserRequest/message/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "messageDto",
+        "Type": "UniRequestAPI.Models.DTO.MessageRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniRequestAPI.Controllers.UserRequestController",
+    "Method": "DeleteMessage",
+    "RelativePath": "api/UserRequest/message/delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deleteRequestDto",
+        "Type": "UniRequestAPI.Models.DTO.DeleteRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniRequestAPI.Controllers.UserRequestController",
+    "Method": "GetMyMessages",
+    "RelativePath": "api/UserRequest/message/read",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniRequestAPI.Controllers.UserRequestController",
+    "Method": "UpdateMessage",
+    "RelativePath": "api/UserRequest/message/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateRequestDto",
+        "Type": "UniRequestAPI.Models.DTO.UpdateRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniRequestAPI.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniRequestAPI.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerDto",
+        "Type": "UniRequestAPI.Models.DTO.RegisterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
